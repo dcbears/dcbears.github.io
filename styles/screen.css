@@ -8,7 +8,7 @@
 }
 body
 {
-	background:#001932 url('../_images/background1.gif') repeat-y center top;
+	background:#001932 url('../images/background1.gif') repeat-y center top;
 	text-align:center;
 	line-height: 20px;
 }
@@ -43,7 +43,7 @@ a:active
 #header
 {
 	margin:10px 10px;
-	background:transparent url('../_images/bearOnCapitol.gif') no-repeat;
+	background:transparent url('../images/bearOnCapitol.gif') no-repeat;
 }
 #header img#logo
 {
@@ -61,13 +61,13 @@ a:active
 	font-weight:bold;
 	width: 627px;
 	color:#001932;
-	background: transparent url('../_images/topNav.gif') repeat-x 0px 0px;
+	background: transparent url('../images/topNav.gif') repeat-x 0px 0px;
 }
 #topNav li
 {
 	float: left;
 	border-right: solid 1px #001932;
-	background: transparent url('../_images/topNav.gif') repeat-x 0px 0px;
+	background: transparent url('../images/topNav.gif') repeat-x 0px 0px;
 }
 #topNav li a:link,
 #topNav li a:visited,
@@ -85,7 +85,7 @@ a:active
 #topNav li.current a:hover,
 #topNav li.current a:active
 {
-	background: transparent url('../_images/hoverNav.gif') repeat-x 0px 0px;
+	background: transparent url('../images/hoverNav.gif') repeat-x 0px 0px;
 	color:#FFF;
 }
 #topNav li.last
@@ -132,7 +132,7 @@ a:active
 {
 	color:#FFF;
 	font-weight:bold;
-	background: transparent url('../_images/hoverNav.gif') repeat-x;
+	background: transparent url('../images/hoverNav.gif') repeat-x;
 	height:20px;
 }
 #body #schedule .stripe1
@@ -192,30 +192,30 @@ p
 }
 #body .roundCornerTop
 {
-	background: #FFF url('../_images/topFullCol.gif') no-repeat top left;
+	background: #FFF url('../images/topFullCol.gif') no-repeat top left;
 	width:887px;
 }
 #body .roundCornerTop.left
 {
-	background: #FFF url('../_images/topLeftCol.gif') no-repeat top left;
+	background: #FFF url('../images/topLeftCol.gif') no-repeat top left;
 	width:580px;
 }
 #body .roundCornerTop.right
 {
-	background: #FFF url('../_images/topRightCol.gif') no-repeat top left;
+	background: #FFF url('../images/topRightCol.gif') no-repeat top left;
 	width:290px;
 }
 #body .roundCornerTop .roundCornerBottom.left
 {
-	background: #FFF url('../_images/bottomLeftCol.gif') no-repeat bottom left;
+	background: #FFF url('../images/bottomLeftCol.gif') no-repeat bottom left;
 }
 #body .roundCornerTop .roundCornerBottom
 {
-	background: #FFF url('../_images/bottomFullCol.gif') no-repeat bottom left;
+	background: #FFF url('../images/bottomFullCol.gif') no-repeat bottom left;
 }
 #body .roundCornerTop .roundCornerBottom.right
 {
-	background: #FFF url('../_images/bottomRightCol.gif') no-repeat bottom left;
+	background: #FFF url('../images/bottomRightCol.gif') no-repeat bottom left;
 }
 #footer
 {
@@ -284,13 +284,13 @@ p
 }
 #thumbs ul li.video img
 {
-    background: transparent url('../_images/thumbVid.gif') no-repeat 0 0;    
+    background: transparent url('../images/thumbVid.gif') no-repeat 0 0;    
     padding:11px 5px 11px 5px;
 }
 #thumbs ul li.video.selected img
 {
     border: 0px;
-    background: transparent url('../_images/thumbVidSelect.gif') no-repeat 0 0;    
+    background: transparent url('../images/thumbVidSelect.gif') no-repeat 0 0;    
 }
 /* News */
 #body #article .back
@@ -341,12 +341,12 @@ p
 }
 #linkList li a.external
 {
-    background:transparent url('../_images/external.gif') no-repeat 0 2px;    
+    background:transparent url('../images/external.gif') no-repeat 0 2px;    
     padding-left:12px;
 }
 p a.external
 {
-    background:transparent url('../_images/externalInline.gif') no-repeat 0 2px;    
+    background:transparent url('../images/externalInline.gif') no-repeat 0 2px;    
     padding-left:12px;
 }
 .logo

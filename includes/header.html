@@ -1,0 +1,21 @@
+		<div id="header" class="clearAfter">
+			<a href="/" title="DC Bears Fans Home"><img id="logo" alt="DC Bears Fans" title="DC Bears Fans" src="/images/clubName1.gif" border="0" /></a>
+            <ul id="topNav">
+			<script
+                var pageNames = ["Home", "About", "Club News & Events", "Bear Links"];
+                var pageLinks = ["/", "/about/", "/news/", "/links/"];
+                var currentSection = window.location.pathname;
+				var headerStr = "";
+                for (var i=0; i< pageNames.lenth; i++)
+                {
+                    var className = "";
+                    if (pageLinks[i] == "/" && (currentSection == "" || currentSection == "/" || currentSection == "/index.html"))
+                        className = "current";
+                    else if(pageLinks[i] != "/")
+                        className = currentSection.indexOf(pageLinks[i]) != -1 ? "current" : "";
+                    className += i == (pageNames.lenth-1) ? " last" : "";
+                    headerStr += "\t<li class='" + className + "'><a title='" + pageNames[i] + "' href='" + pageLinks[i] + "'>" + pageNames[i] + "</a></li>\n\t";
+                }
+			</script>
+			</ul>
+		</div>

@@ -4,17 +4,21 @@ $(document).ready( function () {
   });
 
 function highlightActiveNavItem() {
-    var pageLinks = ["about", "news", "links"];
     var currentSection = window.location.pathname;
-    currentLink = ""
     if (currentSection == "" || currentSection == "/" || currentSection == "/index.html"){
         $('a[href="/"]').parent().addClass("current");
         return;
     }
-    for(i=0; i< pageLinks.length; i++){
-        if (currentSection.startsWith(pageLinks[i])) {
-            $('a[href="/'+pageLinks[i]+'/"]').parent().addClass("current");
-            return;
-        }
+    if (currentSection.startsWith("/about")) {
+        $('a[href="/about/"]').parent().addClass("current");
+        return;
+    }
+    if (currentSection.startsWith("/news")) {
+        $('a[href="/news/"]').parent().addClass("current");
+        return;
+    }
+    if (currentSection.startsWith("/links")) {
+        $('a[href="/links/"]').parent().addClass("current");
+        return;
     }
 }

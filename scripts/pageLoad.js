@@ -1,4 +1,8 @@
-function pageLoad() {
+$(document).ready( function () {
+    highlightActiveNavItem();
+  });
+
+function highlightActiveNavItem() {
     var pageLinks = ["/", "/about/", "/news/", "/links/"];
     var currentSection = window.location.pathname;
     currentLink = ""

@@ -1,4 +1,3 @@
-$("#header").load("/includes/header.html");
 highlightActiveNavItem();
 
 function highlightActiveNavItem() {

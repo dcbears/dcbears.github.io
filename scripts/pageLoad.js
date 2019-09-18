@@ -1,5 +1,3 @@
-highlightActiveNavItem();
-
 function highlightActiveNavItem() {
     var currentSection = window.location.pathname;
     if (currentSection == "" || currentSection == "/" || currentSection == "/index.html"){
@@ -19,3 +17,5 @@ function highlightActiveNavItem() {
         return;
     }
 }
+
+$("#header").load("/includes/header.html", function(){highlightActiveNavItem()});

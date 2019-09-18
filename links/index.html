@@ -11,6 +11,7 @@
 	<meta property="fb:admins" content="jimbillimoria"/> 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="/scripts/pageLoad.js"></script>
     <link rel="stylesheet" type="text/css" href="/styles/screen.css" />
 	<!--[if IE]>
 	<style type="text/css">
@@ -34,7 +35,7 @@
     </script>
 
 </head>
-<body>
+<body onload="pageLoad()">
 	<div id="pageContainer">
 		<div id="header" class="clearAfter">
 			<script> $(function(){ $("#header").load("/includes/header.html"); }); </script> 
@@ -57,5 +58,4 @@
 		<script> $(function(){ $("#footer").load("/includes/footer.html"); }); </script> 
 	</div>
 </body>			
-<script src="/scripts/pageLoad.js"></script>
 </html>

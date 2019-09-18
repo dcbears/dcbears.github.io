@@ -1,7 +1,5 @@
-$(document).ready( function () {
-    $("#header").load("/includes/header.html");
-    highlightActiveNavItem();
-  });
+$("#header").load("/includes/header.html");
+highlightActiveNavItem();
 
 function highlightActiveNavItem() {
     var currentSection = window.location.pathname;
